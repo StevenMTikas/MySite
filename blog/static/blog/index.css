@@ -46,6 +46,7 @@
   text-align: center;
 }
 
+
 #latest-posts ul {
   list-style: none;
   margin: 0;
@@ -56,6 +57,18 @@
 
 #latest-posts li {
   flex: 1;
+}
+
+#latest-post img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  object-position: top;
+  border: 5px solid white;
+  border-radius: 12px;
+  background-color: #ffe1bf;
+  transform: rotateZ(-5deg);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 
 #about {
